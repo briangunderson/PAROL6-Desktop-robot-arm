@@ -882,9 +882,10 @@ void Init_motor_drivers(int num)
   Serial.print(num + 1);
   Serial.print(" Connection is: ");
   if(var0 == 0){
-     Serial.println("GOOD");
+     Serial.println(" GOOD ");
   }else{
-    Serial.println("BAD");
+    Serial.print(var0);
+    Serial.println(" BAD ");
   }
 
 
